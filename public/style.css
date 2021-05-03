@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: "Roboto";
+}
+
 /*NavBar*/
 .navbar-brand {
     font-size: 2rem;
     font-weight: bold;
+    color: #fff !important;
 }
 
+
 .navbar {
-    padding: 0 0 10rem;
+    padding: 0% 10% 0%;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .nav-item {
@@ -19,12 +30,15 @@
 
 /* title section */
 #title{
-    background: rgb(0,95,255);
-    background: linear-gradient(146deg, rgba(0,95,255,1) 12%, rgba(255,76,104,1) 50%);
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     color: #fff;
 }
 
 .big-heading {
+    padding: 9rem 0 0 0;
     font-size: 5rem;
     line-height: 1.5;
     text-align: center;
@@ -51,3 +65,14 @@
     padding: 1% 1% 5% 1%;
     
 }
+
+/*Footer Section*/
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+  }
+  
+  .social-logo {
+    margin: 20px 10px;
+  }

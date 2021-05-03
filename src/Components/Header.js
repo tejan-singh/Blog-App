@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
+
 
 function Header(){
     return(
@@ -7,7 +7,7 @@ function Header(){
             <section className="coloured-section" id="title">  
                 
                 <div className="container-fluid">
-                <NavBar />
+                
                 
                 {/* Title */}
                 <div className="row">
