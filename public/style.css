@@ -13,7 +13,7 @@
 }
 
 .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     
 }
 
@@ -36,5 +36,18 @@
 }
 
 .container-fluid {
-    padding: 0% 15% 15%;
+    padding: 0% 10% 13%;
+    
+}
+
+
+/*Blog Section*/
+.blog-section {
+    padding: 0% 10% 0%;
+    background-color: rgb(240, 240, 240);
+}
+
+.blog-card {
+    padding: 1% 1% 5% 1%;
+    
 }
