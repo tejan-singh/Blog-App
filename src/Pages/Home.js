@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 function Home() {
     return (
       <div>
-        <NavBar />
+
         <Header />
         <Blogs />
         <Footer />
