@@ -1,8 +1,5 @@
 import React from "react";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Login from "./Components/Login";
-import SignUp from "./Components/SignUp";
+import Routes from "./Routes";
 
 import {
   BrowserRouter as Router,
@@ -17,22 +14,18 @@ function App() {
     <Router>
       <Switch>
 
-        <Route path="/" exact={true}>
-          <Home />
-        </Route>
+        {/* instead of individual route to shorten your code, use map function to render props from Routes.js  */}
+        {
+          Routes.map( route => (
+            <Route 
+            path={route.path} 
+            exact={route.exact} 
+            component={route.component} 
+            />
 
-        <Route path="/about">
-          <About />
-        </Route>
+          ) )
+        }
 
-        <Route path="/login">
-          <Login />
-        </Route>
-
-        <Route path="/signup">
-          <SignUp />
-        </Route>
-        
       </Switch>
     </Router>
   );
