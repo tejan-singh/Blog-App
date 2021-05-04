@@ -19,12 +19,12 @@ export default [
     },
 
     {
-        path: "/",
+        path: "/signup",
         component: () => <SignUp />,
     },
 
     {
-        path: "/",
+        path: "/login",
         component: () => <Login />,
     }
 ]
