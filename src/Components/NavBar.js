@@ -12,8 +12,10 @@ function NavBar(){
             
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav ml-auto">
-                <li className="navbar-item"><a className="nav-link" href="">Home</a></li>
-                <li className="navbar-item"><a className="nav-link" href="">About</a></li>
+                <li className="navbar-item"><a className="nav-link" href="/">Home</a></li>
+                <li className="navbar-item"><a className="nav-link" href="/about">About</a></li>
+                <li className="navbar-item"><a className="nav-link" href="/signup">Sign Up</a></li>
+                <li className="navbar-item"><a className="nav-link" href="/login">Login</a></li>
             </ul>
             </div>
         </nav>

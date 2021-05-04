@@ -1,18 +1,40 @@
 import React from "react";
-import NavBar from "./Components/NavBar";
-import Header from "./Components/Header";
-import Blogs from "./Components/Blogs";
-import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Login from "./Components/Login";
+import SignUp from "./Components/SignUp";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div>
-    <NavBar />
-    <Header />
-    <Blogs />
-    <Footer />
-    </div>
+    <Router>
+      <Switch>
+
+        <Route path="/" exact={true}>
+          <Home />
+        </Route>
+
+        <Route path="/about">
+          <About />
+        </Route>
+
+        <Route path="/login">
+          <Login />
+        </Route>
+
+        <Route path="/signup">
+          <SignUp />
+        </Route>
+        
+      </Switch>
+    </Router>
   );
 }
 
