@@ -75,3 +75,9 @@ body{
   .social-logo {
     margin: 20px 10px;
   }
+
+
+  /*Create Post*/
+  .create-post{
+      padding-top: 50px;
+  }

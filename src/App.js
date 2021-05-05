@@ -19,8 +19,9 @@ function App() {
       <Switch>
         {/* instead of individual route to shorten your code, use map function to render props from Routes.js  */}
         {
-          Routes.map( route => (
-            <Route 
+          Routes.map( (route,index) => (
+            <Route
+            key={index} 
             path={route.path} 
             exact={route.exact} 
             component={route.component} 
